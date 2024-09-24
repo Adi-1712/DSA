@@ -170,9 +170,9 @@ public:
             cout << "Not found: " << id << endl;
         } else
          {
-            node* delNode = temp->next;
-            temp->next = delNode->next; 
-            delete delNode;
+            node* del = temp->next;
+            temp->next = del->next; 
+            delete del;
             cout << "Deleted: " << id << endl;
         }
     }
