@@ -1,4 +1,6 @@
 /*
+Aditya Hajare
+123B1B125
 Consider Employee database of PCCOE (at least 20 records). Database contains different fields of
 every employee like EMP-ID, EMP-Name and EMP-Salary.
 a. Arrange list of employees according to EMP-ID in ascending order using Quick Sort
@@ -120,7 +122,7 @@ int Partition(Employee *e, int low, int high)
     return end;
 }
 
-void QuickSort(Employee *e, int low, int high)     // Worst case TC = O(n^2) and best case TC = O(nlogn)
+void QuickSort(Employee *e, int low, int high)     
 {
     if(low < high)
     {
@@ -136,26 +138,46 @@ int main()
     int n=20;
     
 
-    e[0].setdata(1012, "Aarav Patel");
-    e[1].setdata(1002, "Maya Sharma");
-    e[2].setdata(1015, "Ravi Kumar");
-    e[3].setdata(1013, "Sanya Verma");
-    e[4].setdata(1016, "Ishaan Gupta");
-    e[5].setdata(1017, "Ritesh Patil");
-    e[6].setdata(1007, "Arjun Rao");
-    e[7].setdata(1019, "Aary Potdar");
-    e[8].setdata(1020, "Yash Gavali");
-    e[9].setdata(1010, "Kavya Reddy");
-    e[10].setdata(1011, "Vikram Joshi");
-    e[11].setdata(1001, "Tanuja Rao");
-    e[12].setdata(1004, "Shreya Patil");
-    e[13].setdata(1014, "Ritika Shah");
-    e[14].setdata(1003, "Ankit Patil");
-    e[15].setdata(1005, "Pooja Kumar");
-    e[16].setdata(1006, "Jijai Surve");
-    e[17].setdata(1018, "Sneha Agarwal");
-    e[18].setdata(1008, "Nitin Patel");
-    e[19].setdata(1009, "Kiran Mehta");
+    e[0].setdata(1012,"Aditya hajare");
+    s[1].setdata("karan jadhav");
+    s[2].setdata("Karan kumar");
+    s[3].setdata("sahil sinha");
+    s[4].setdata("keya jadhav");
+    s[5].setdata("Neha Singh");
+    s[6].setdata("Nalini oberoi");
+    s[7].setdata("Priya jadhav");
+    s[8].setdata("kartik Desai");
+    s[9].setdata("Kavyansh joshi");
+    s[10].setdata("Vikram mehta");
+    s[11].setdata("Tanuja patil");
+    s[12].setdata("Amit shah");
+    s[13].setdata("Ritika sharma");
+    s[14].setdata("anuj khandelwal" );
+    s[15].setdata("Pooja Kumar" );
+    s[16].setdata("Manish Sisodia");
+    s[17].setdata("shravan singhania");
+    s[18].setdata("Neha patil");
+    s[19].setdata("Kiran Mehta");
+
+    e[1].setdata(1002, "Aditya Hajare");
+    e[2].setdata(1015, "Ravi Shastri");
+    e[3].setdata(1013, "Soniya sheikh");
+    e[4].setdata(1016, "ali abdul");
+    e[5].setdata(1017, "Ritesh patil");
+    e[6].setdata(1007, "Arjun ramarao");
+    e[7].setdata(1019, "priya patel");
+    e[8].setdata(1020, "Yash sinha");
+    e[9].setdata(1010, "rama rao");
+    e[10].setdata(1011, "narendra singh");
+    e[11].setdata(1001, "tritya patel");
+    e[12].setdata(1004, "Shreya mahajan");
+    e[13].setdata(1014, "gadeen Shah");
+    e[14].setdata(1003, "Ankit kapoor");
+    e[15].setdata(1005, "Pooja sivakumar");
+    e[16].setdata(1006, "suresh kapoor");
+    e[17].setdata(1018, "mugdha poonawalla");
+    e[18].setdata(1008, "Neha sharma");
+    e[19].setdata(1009, "anushka sinha");
 
 
 
