@@ -154,7 +154,6 @@ public:
         if (head->Id == id) 
         { 
             head = head->next; 
-            delete temp; 
             cout << "Deleted: " << id << endl;
             return;
         }
